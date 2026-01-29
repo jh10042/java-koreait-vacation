@@ -12,14 +12,21 @@ public class Practice1 {
 
         Scanner scanner = new Scanner(System.in);
 
-
-        double height = 1.74;
-        int weight = 70;
+        System.out.print("키(m) >>");
+        double height = scanner.nextDouble();
+        System.out.print("몸무게(kg) >>");
+        int weight = scanner.nextInt();
         double bmi = weight / (height * height);
 
         // 아래의 조건문을 입력받은 height, weight
         // 값이 음수가 아닐때 실행되게 만들어 주세요
         // -> 양수일때만 실행되게 만들어 주세요
+
+        // 음수일때는 조건문 실행하지 X
+        if(height < 0 || weight < 0){
+            System.out.println("음수 입력 X");
+            return;
+        }
 
         if (bmi >= 30){
             System.out.println("비만입니다.");
