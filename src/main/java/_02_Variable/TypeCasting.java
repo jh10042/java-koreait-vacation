@@ -35,7 +35,6 @@ public class TypeCasting {
         String strNum = "34";
         // 문자열과 숫자를 더하면 -> 숫자가 문자열로 변환
         System.out.println(strNum + 1);
-
         // Integer의 기능을 이용
         int intData = Integer.parseInt(strNum);
         System.out.println(intData + 1);
