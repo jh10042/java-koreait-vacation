@@ -45,5 +45,15 @@ public class StringMethod {
         String result = email.substring(0,idxOfAt);
         System.out.println(result);
 
+        // 참조자료형의 값비교
+        // 참조자료형(대문자로 시작하는 타입은 == 비교 X
+
+        // JVM의 메모리는 stack + heap
+        // == 연산은 stack에 있는 값을 비교
+        // 참조자료형은 stack에 heap 메모리 주소를 저장
+        // -> 실제값이 아닌 주소비교가 되버림
+        String name1= "홍길동";
+        boolean isSameName = name1.equals("홍길동");
+
     }
 }
