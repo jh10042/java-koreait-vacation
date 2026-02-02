@@ -21,6 +21,6 @@ public class MultiArray {
 
         // seats로 시작하여 A3, C1를 읽어와 출력!
         String A3 = seats[0][2];
-        String C1 = seatC[2][0];
+        String C1 = seats[2][0];
     }
 }
