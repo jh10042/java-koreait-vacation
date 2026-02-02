@@ -36,10 +36,11 @@ public class Practice2 {
                 break;
             } else {
                 chance --;
-                System.out.println("다시 입력하세요");
-                System.out.println("남은 시도횟수: " + chance);
+                if(chance > 0) {
+                    System.out.println("다시 입력하세요");
+                    System.out.println("남은 시도횟수: " + chance);
+                }
             }
-
             if (chance < 1) {
                 System.out.println("계정락");
                 break;

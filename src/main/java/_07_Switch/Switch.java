@@ -41,22 +41,27 @@ public class Switch {
         System.out.print("오늘은 무슨 요일? > ");
         String dayOfWeek = scanner.nextLine();
 
+        // 월 -> 월요일, 화 -> 화요일...
+        // 문자열.trim() - 문자열 좌우공백 제거
+        dayOfWeek = dayOfWeek.trim();
+        dayOfWeek = dayOfWeek.endsWith("요일") ? dayOfWeek: dayOfWeek + "요일";
+
         int price = 10000;
         int discountRate;
         // switch로 각 요일마다 다르게 초기화
         // 월 - 10, 화/수/목 - 5, 금 - 20, 토/일 - 15, 그외 - 0
 
         switch (dayOfWeek) {
-            case "월":
+            case "월요일":
                 discountRate = 10;
                 break;
-            case "화": case "수": case "목":
+            case "화요일": case "수요일": case "목요일":
                 discountRate = 5;
                 break;
-            case "금":
+            case "금요일":
                 discountRate = 20;
                 break;
-            case "토": case "일":
+            case "토요일": case "일요일":
                 discountRate = 15;
                 break;
             default:
