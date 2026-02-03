@@ -1,6 +1,6 @@
 package _02_Variable;
 
-public class DataType {
+public class _02_DataType {
     public static void main(String[] args) {
         // 자료형이란, 저장된 이진수를 어떻게 해석할지 정의하는 것
 

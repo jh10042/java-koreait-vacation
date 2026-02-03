@@ -2,7 +2,7 @@ package _09_While;
 
 import java.util.Scanner;
 
-public class While {
+public class _01_While {
     public static void main(String[] args) {
 
         int count = 0; // 외부 변수

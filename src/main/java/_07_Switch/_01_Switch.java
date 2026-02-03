@@ -2,7 +2,7 @@ package _07_Switch;
 
 import java.util.Scanner;
 
-public class Switch {
+public class _01_Switch {
     public static void main(String[] args) {
         // switch문은 변수가 가진 값에 따라 분기
 

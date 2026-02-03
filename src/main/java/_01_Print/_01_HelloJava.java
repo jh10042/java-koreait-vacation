@@ -7,7 +7,7 @@ package _01_Print;
 .java(우리가 작성한 코드) -> 컴파일과정 -> .class(바이트코드)
 -> JVM(자바가상머신)이 읽고 실행 - > OS(윈도우, 맥)호출 -> 출력
  */
-public class HelloJava {// 클래스 정의 시작
+public class _01_HelloJava {// 클래스 정의 시작
     // 메인메서드
     // main이라는 현관문을 통해 외부와 출입
     // 프로그램을 실행시 JVM은 main을 실행한다.

@@ -1,6 +1,6 @@
 package _03_Operator;
 
-public class Operator2 {
+public class _02_Operator2 {
     public static void main(String[] args) {
         // 5. 논리연산자 - boolean 타입끼리 연산
         // 결과타입: boolean

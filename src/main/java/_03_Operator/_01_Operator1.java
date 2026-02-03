@@ -1,6 +1,6 @@
 package _03_Operator;
 
-public class Operator1 {
+public class _01_Operator1 {
     public static void main(String[] args) {
         // 연산자: 계산을 수행하는 기호
         // 3 + 4: "+" -> 연산자, 3,4 -> 피연산자

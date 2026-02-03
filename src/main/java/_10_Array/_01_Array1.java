@@ -1,6 +1,6 @@
 package _10_Array;
 
-public class Array1 {
+public class _01_Array1 {
     public static void main(String[] args) {
         // 배열(Array): 동일한 자료형에 많은 데이터를 한번에 관리하는 자료형
         // 연속된 공간(메모리)에 위치하기 때문에 조회시 유리

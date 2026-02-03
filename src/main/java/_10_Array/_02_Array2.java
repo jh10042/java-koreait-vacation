@@ -2,7 +2,7 @@ package _10_Array;
 
 import java.util.Arrays;
 
-public class Array2 {
+public class _02_Array2 {
     public static void main(String[] args) {
         // 참조자료형의 특징 - "."으로 참조 가능
         // 실제값들은 heap에 저장되어 있다

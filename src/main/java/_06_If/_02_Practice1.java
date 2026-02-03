@@ -2,7 +2,7 @@ package _06_If;
 
 import java.util.Scanner;
 
-public class Practice1 {
+public class _02_Practice1 {
     public static void main(String[] args) {
         // 철수(174cm, 70kg)
         // bmi = 체중(kg) / (키(m)*키(m))

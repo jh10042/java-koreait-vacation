@@ -2,7 +2,7 @@ package _04_Scanner;
 
 import java.util.Scanner;
 
-public class ScannerStudy {
+public class _01_ScannerStudy {
     public static void main(String[] args) {
         // 스캐너 - 외부로부터 데이터를 입력받을 수 있는 "객체"
         // new 연산 -> 객체를 생성

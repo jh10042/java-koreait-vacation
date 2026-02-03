@@ -2,7 +2,7 @@ package _09_While;
 
 import java.util.Scanner;
 
-public class Practice2 {
+public class _03_Practice2 {
     public static void main(String[] args) {
         // 문자열 ""
         String ex = "";

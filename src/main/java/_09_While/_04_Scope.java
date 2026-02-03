@@ -1,6 +1,6 @@
 package _09_While;
 
-public class Scope {
+public class _04_Scope {
     public static void main(String[] args) {
         // 스코프: 변수의 생존 범위
         // 해당 변수가 선언된 중괄호 안쪽으로 생존 가능하다 - java

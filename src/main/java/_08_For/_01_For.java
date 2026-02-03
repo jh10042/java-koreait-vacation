@@ -1,6 +1,6 @@
 package _08_For;
 
-public class For {
+public class _01_For {
     public static void main(String[] args) {
         // 반복문- for
         /*

@@ -1,6 +1,6 @@
 package _02_Variable;
 
-public class PersonInfo {
+public class _03_PersonInfo {
     public static void main(String[] args) {
         /*
         1. 아래의 데이터를 적정한 자료형 및 변수명으로 저장

@@ -1,6 +1,6 @@
 package _05_String;
 
-public class StringMethod {
+public class _01_StringMethod {
     public static void main(String[] args) {
         /*
             첫글자 소문자: 기본자료형

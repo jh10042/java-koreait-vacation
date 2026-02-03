@@ -1,6 +1,6 @@
 package _08_For;
 
-public class NastedFor {
+public class _02_NastedFor {
     public static void main(String[] args) {
         // 2중 for문
 

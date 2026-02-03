@@ -1,6 +1,6 @@
 package _02_Variable;
 
-public class TypeCasting {
+public class _04_TypeCasting {
     public static void main(String[] args) {
         // (자료)형변환: 데이터 타입을 다른 타입으로 변환
 

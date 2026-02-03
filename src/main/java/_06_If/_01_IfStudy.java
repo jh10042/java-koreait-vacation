@@ -1,6 +1,6 @@
 package _06_If;
 
-public class IfStudy {
+public class _01_IfStudy {
     public static void main(String[] args) {
         /*
             if(boolean 데이터) {

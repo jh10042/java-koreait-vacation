@@ -1,10 +1,9 @@
 package _09_While;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Practice1 {
+public class _02_Practice1 {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
