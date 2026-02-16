@@ -2,7 +2,7 @@ package _12_Class;
 
 public class _01_ClassMain {
     public static void main(String[] args) {
-        // 클래스: 내가 직점 정의하는 참조자료형
+        // 클래스: 내가 직접 정의하는 참조자료형
 
         // 누구의 점수?
         int[] scores = {80, 90, 70};
@@ -71,5 +71,8 @@ public class _01_ClassMain {
         // Car 클래스에 정의해주세요
         // 1. car 클래스의 모든 필드를 초기화 할 수 있는 생성자
         // 2. car 클래스의 필드를 하나도 초기화 하지 않는 생성자
+
+        Car car3 = new Car("X3", "Acar26", 2026, 0, false);
+        System.out.println(car3.year);
     }
 }

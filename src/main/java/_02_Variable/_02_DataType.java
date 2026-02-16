@@ -15,7 +15,7 @@ public class _02_DataType {
         double bigBox = 3.14; // 8바이트 - 소숫점 15자리
 
         // 3. 문자 타입 - 글자 1개
-        char char1 = 'A';
+        char char1 = 'A'; // 'A' <-> 65
         char char2 = 65 + 1; // 숫자 <-> 문자
         // 숫자 <-> 문자 1:1 대응시킨 표: 아스키 코드표
         System.out.println(char2);

@@ -7,13 +7,16 @@ public class _01_Variable {
         greeting = "hello";
 
         // 한번에 선언 가능
-        String academy ="코리아아이티";
+        String academy = "코리아아이티";
+
+        // 재대입 ok
+        academy = "아이티코리아";
 
         /* 변수 명명법
-        1. 필수 규칙
-           String 1name: 숫자로 시작할 수 X
-           String my name: 공백을 포함할 수 X
-           String class: 예약어 사용 X
+           1. 필수 규칙
+              String 1name: 숫자로 시작할 수 X
+              String my name: 공백을 포함할 수 X
+              String class: 예약어 사용 X
 
            2. 관례(국룰)
               파스칼표기 - LastName - 클래스명, 파일명

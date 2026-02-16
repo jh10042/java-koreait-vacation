@@ -9,8 +9,7 @@ public class _02_Operator2 {
         int age = 25;
 
         // and 연산자(&&): 둘 다 true일때 true
-        boolean canDrive
-                = hasLicense && (age >= 20);
+        boolean canDrive = hasLicense && (age >= 20);
 
         // or 연산자(||): 둘 중 하나라도 true면 true
         boolean isWeekend = false;

@@ -27,7 +27,10 @@ public class Car {
         System.out.println("현재 속도: " + speed);
     }
 
-    // 1)
+    // 실습
+    // 기본 생성자
+    public Car() {}
+
     public Car(String brand, String model, int year, int speed, boolean isEngineOn) {
         this.brand = brand;
         this.model = model;
@@ -35,6 +38,4 @@ public class Car {
         this.speed = speed;
         this.isEngineOn = isEngineOn;
     }
-
-    public Car() {}
 }

@@ -11,7 +11,7 @@ public class _01_Operator1 {
         int num2 = 2;
         // int끼리의 나눗셈은 몫만 출력됨
         System.out.println(num1/num2);
-        // 나머지연산 - 3 /2 ... 나눈 나머지 "1"
+        // 나머지연산 - 3 / 2 ... 나눈 나머지 "1"
         System.out.println(num1 % num2);
 
         // 2. 비교연산자 - 결과값이 boolean 타입

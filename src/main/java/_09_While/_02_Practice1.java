@@ -8,7 +8,7 @@ public class _02_Practice1 {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
 
-        // 1이상 101미만 정스 증에 하나를 랜덤하게 뽑기
+        // 1이상 101미만 정수 증에 하나를 랜덤하게 뽑기
         int randomNum = random.nextInt(1,101);
         System.out.println(randomNum);
 

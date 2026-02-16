@@ -28,7 +28,7 @@ public class _02_Array2 {
             -main stack-
             a: 10
             original: 0X1000 (heap 메모리주소)
-            copy1:0X1000 <- 대입연산 결과
+            copy1: 0X1000 <- 대입연산 결과
             -heap-
             0X1000: 1
             0X1004: 2
@@ -36,7 +36,7 @@ public class _02_Array2 {
          */
         int[] copy1 = original; // 대입
         System.out.println(original[0]); // 1
-        System.out.println(copy1); // 1
+        System.out.println(copy1[0]); // 1
 
         /*
             -main stack-
@@ -55,7 +55,7 @@ public class _02_Array2 {
 
         original[0] = 999; // 오리지날의 0번을 999로 수정
         System.out.println(original[0]); // 999
-        System.out.println(copy1); // 999?
+        System.out.println(copy1[0]); // 999
 
         // heap에 새로운 메모리를 할당하야 실제값을 복사해 가라
         // 깊은 복사

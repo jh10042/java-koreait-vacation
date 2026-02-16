@@ -7,7 +7,7 @@ public class Post {
     String author; // 저자
     int viewCount; // 조회수
 
-    //기본 생성자 - 정의된 생성자가 하나도 없으면
+    // 기본 생성자 - 정의된 생성자가 하나도 없으면
     // 컴파일러가 알아서 만들어 줌
     public Post() {}
 

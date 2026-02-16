@@ -28,7 +28,7 @@ public class Student { // student 클래스 시작
         this.eng = eng;
         this.math = math;
         // this는 객체 자신의 heap 주소값
-        // 보이진 않지만, 객체를 ㅊ참고하여 호출하는 생성자, 메서드는 객체 자기자신의 주소를 this라는 매새변수에 전달
+        // 보이진 않지만, 객체를 참고하여 호출하는 생성자, 메서드는 객체 자기자신의 주소를 this라는 매새변수에 전달
     }
 
 } // 끝

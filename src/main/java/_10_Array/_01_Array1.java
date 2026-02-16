@@ -20,7 +20,7 @@ public class _01_Array1 {
         int[] scores3 = {90, 80, 40, 60, 100};
 
         // 매열의 속성
-        // 배열의 칸 개수(길이)
+        // 배열의 칸 개수(길이): 배열.length
         System.out.println(scores3.length);
 
         String[] names = {"홍길동", "김길동", "박길동", "이길동", "서길동"};

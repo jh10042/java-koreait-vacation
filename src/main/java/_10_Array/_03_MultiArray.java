@@ -10,7 +10,7 @@ public class _03_MultiArray {
 
         // seats 배열이 뭘 저장하고 있는 걸끼?
         // seats도 0X5000
-        // String[] -> String 저장하는 배역
+        // String[] -> String 저장하는 배열
         // String[][] -> String [] 저장하는 배열
         String[][] seats = {seatA, seatB, seatC};
         String[] bseat = seats[1]; // 0X2000

@@ -18,9 +18,9 @@ public class _03_Practice1 {
     // num이 nums에 존재하는 숫자인지?
     // 존재하면 true, 안하면 false 라턴
 
-    public static boolean numInnums(int[] nums, int num) {
-        for (int i = 0; i < nums.length; i++) {
-            if (num == nums[i]) {
+    public static boolean numInNums(int[] nums, int num) {
+        for (int n : nums) {
+            if (n == num) {
                 return true;
             }
         }
@@ -28,8 +28,11 @@ public class _03_Practice1 {
     }
 
     public static void main(String[] args) {
+        boolean result = isEven(4);
+        System.out.println(result);
+
         int[] nums = {1,2,3,4};
-        boolean result = numInnums(nums,3);
-        System.out.println("결과: " + result);
+        boolean result2 = numInNums(nums,3);
+        System.out.println("결과: " + result2);
     }
 }

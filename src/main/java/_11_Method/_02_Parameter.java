@@ -25,9 +25,10 @@ public class _02_Parameter {
 
     }
 
-//    public static void printNum(int num) {
-//        System.out.println("정수호출!: " + num);
-//    }
+    public static void printNum(int num) {
+        System.out.println("정수호출!: " + num);
+    }
+
 
     public static void printNum(double num) {
         System.out.println("실수호출!: " + num);

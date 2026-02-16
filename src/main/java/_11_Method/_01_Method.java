@@ -49,6 +49,7 @@ public class _01_Method {
         // 리턴되는 데이터가 값이면 값처럼
         // 객체라면 객체처럼 다룰 수 있다.
         String result = addNim("홍길동");
+        System.out.println(result);
 
         int result2 = add(10,10);
         System.out.println(result2);

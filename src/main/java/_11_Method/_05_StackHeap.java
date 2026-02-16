@@ -1,6 +1,6 @@
 package _11_Method;
 
-public class _05_Stackheap {
+public class _05_StackHeap {
 
     public static void changeNum(int num) {
         System.out.println("changeNum 호출됨!");

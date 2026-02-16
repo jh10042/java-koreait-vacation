@@ -10,7 +10,7 @@ public class _02_NastedFor {
         } // 일주일 for문 전체를 일주일로 치환해서 생각가능
 
         // 한달
-        // 바깥 반복이 한번 돌때 안쪽 반복이 전체 반복
+        // 바깥 반복이 한번 돌a때 안쪽 반복이 전체 반복
         for (int week = 1; week <= 4; week++) {
             System.out.println(week + "주 시작!");
             for(int day = 1; day <= 7; day++) {

@@ -30,8 +30,8 @@ public class _01_StringMethod {
         int indexOfSon = str.indexOf("Son");
 
         // 문자열의 일부분을 추출
-        // substring((index) - index부터 끝까지 잘라옴
-        // substring(index1, index2)) - index1 이상 index2 미만 잘라옴
+        // substring(index) - index부터 끝까지 잘라옴
+        // substring(index1, index2) - index1 이상 index2 미만 잘라옴
         String son = str.substring(11);
         String son2 = str.substring(indexOfSon);
         System.out.println(son);
@@ -46,7 +46,7 @@ public class _01_StringMethod {
         System.out.println(result);
 
         // 참조자료형의 값비교
-        // 참조자료형(대문자로 시작하는 타입은 == 비교 X
+        // 참조자료형(대문자로 시작하는 타입은 == 비교 X)
 
         // JVM의 메모리는 stack + heap
         // == 연산은 stack에 있는 값을 비교
@@ -54,6 +54,5 @@ public class _01_StringMethod {
         // -> 실제값이 아닌 주소비교가 되버림
         String name1= "홍길동";
         boolean isSameName = name1.equals("홍길동");
-
     }
 }
