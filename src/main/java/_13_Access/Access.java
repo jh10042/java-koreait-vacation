@@ -16,7 +16,7 @@ public class Access {
     private String data;
 
     public Access(String data) {
-        this.data =data;
+        this.data = data;
     }
 
     // setter - set필드이름
